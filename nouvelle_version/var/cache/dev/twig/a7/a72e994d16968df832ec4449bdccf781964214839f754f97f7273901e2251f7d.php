@@ -40,7 +40,13 @@ class __TwigTemplate_50c2ac978ca255fee5873a80fa332ea9271af020f32c3b11108d3c0f6ba
             </div>
           </div>
           <div class=\"input-field second-wrap\">
-            <input id=\"search\" type=\"text\" placeholder=\"quelle université ?\" />
+            <input list=\"search\" type=\"text\" placeholder=\"quelle université ?\">
+                <datalist id=\"search\">
+                <option value=\"Université Paris Diderot\">
+                <option value=\"Université Paris Descarte\">
+                <option value=\"Institut de Physique du Globe de Paris\">
+            </datalist>
+
           </div>
           <div class=\"input-field third-wrap\">
             <button class=\"btn-search\" type=\"button\">
@@ -53,7 +59,7 @@ class __TwigTemplate_50c2ac978ca255fee5873a80fa332ea9271af020f32c3b11108d3c0f6ba
       </form>
     </div>
     <script src=\"";
-        // line 31
+        // line 37
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("js/choices.js"), "html", null, true);
         echo "\" ></script>
     <script>
@@ -85,7 +91,7 @@ class __TwigTemplate_50c2ac978ca255fee5873a80fa332ea9271af020f32c3b11108d3c0f6ba
 
     public function getDebugInfo()
     {
-        return array (  57 => 31,  25 => 1,);
+        return array (  63 => 37,  25 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -116,7 +122,13 @@ class __TwigTemplate_50c2ac978ca255fee5873a80fa332ea9271af020f32c3b11108d3c0f6ba
             </div>
           </div>
           <div class=\"input-field second-wrap\">
-            <input id=\"search\" type=\"text\" placeholder=\"quelle université ?\" />
+            <input list=\"search\" type=\"text\" placeholder=\"quelle université ?\">
+                <datalist id=\"search\">
+                <option value=\"Université Paris Diderot\">
+                <option value=\"Université Paris Descarte\">
+                <option value=\"Institut de Physique du Globe de Paris\">
+            </datalist>
+
           </div>
           <div class=\"input-field third-wrap\">
             <button class=\"btn-search\" type=\"button\">
@@ -137,6 +149,6 @@ class __TwigTemplate_50c2ac978ca255fee5873a80fa332ea9271af020f32c3b11108d3c0f6ba
       });
 
     </script>
-", "search.html.twig", "/var/www/web2/SOSDiderot/app/Resources/views/search.html.twig");
+", "search.html.twig", "/var/www/web2/SosUniv/nouvelle_version/app/Resources/views/search.html.twig");
     }
 }

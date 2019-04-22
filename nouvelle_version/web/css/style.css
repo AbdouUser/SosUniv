@@ -391,16 +391,13 @@ a.decoration-none, a.decoration-none:hover {
         margin-left: 0 !important;
     }
 
-    .fore-img .desc {
-        font-size: 2em;
-        padding-left: 0.5em;
-        padding-right: 0.5em;
-    }
-}
 
+}
 /**
  * md screen
  */
 @media screen and (max-width: 991px) {
-
+  .logo {
+      margin-left: 0 !important;
+  }
 }

@@ -58,7 +58,7 @@ class __TwigTemplate_9c1895f5558812e43ce0a78a601ff1f224bef5343a3ace47d09c2e847d4
         // line 10
         echo "
   <div class=\"row\">
-    <div class=\"col-lg-8 mx-auto mt-5\">
+    <div class=\"col-lg-8 col-xs-8 col-md-8 col-xl-8 mx-auto mt-5\">
       <center>
           <font color =\"white\"><h3>Vous êtes professionnel de l'université de Paris ? <br> Découvrez la prise de rendez-vous en ligne !</h3></font><br>
           <a href=\"/inscription\"> <input type=\"submit\" value=\"Commencer\" class=\"btn btn-primary mb-2 mx-auto d-block\" href=\"/inscription\" />
@@ -66,7 +66,7 @@ class __TwigTemplate_9c1895f5558812e43ce0a78a601ff1f224bef5343a3ace47d09c2e847d4
    </div>
 
 <!--
-   <div class=\"col-lg-4 toure\">
+   <div class=\"col-lg-4 col-xl-4 col-xs-4 col-md-4 toure\">
       <img src=\"";
         // line 21
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("img/toure.png"), "html", null, true);
@@ -121,7 +121,7 @@ class __TwigTemplate_9c1895f5558812e43ce0a78a601ff1f224bef5343a3ace47d09c2e847d4
   {% include('search.html.twig') %}
 
   <div class=\"row\">
-    <div class=\"col-lg-8 mx-auto mt-5\">
+    <div class=\"col-lg-8 col-xs-8 col-md-8 col-xl-8 mx-auto mt-5\">
       <center>
           <font color =\"white\"><h3>Vous êtes professionnel de l'université de Paris ? <br> Découvrez la prise de rendez-vous en ligne !</h3></font><br>
           <a href=\"/inscription\"> <input type=\"submit\" value=\"Commencer\" class=\"btn btn-primary mb-2 mx-auto d-block\" href=\"/inscription\" />
@@ -129,7 +129,7 @@ class __TwigTemplate_9c1895f5558812e43ce0a78a601ff1f224bef5343a3ace47d09c2e847d4
    </div>
 
 <!--
-   <div class=\"col-lg-4 toure\">
+   <div class=\"col-lg-4 col-xl-4 col-xs-4 col-md-4 toure\">
       <img src=\"{{ asset('img/toure.png') }}\"/>
    </div>
 -->
@@ -137,6 +137,6 @@ class __TwigTemplate_9c1895f5558812e43ce0a78a601ff1f224bef5343a3ace47d09c2e847d4
 
 
 {% endblock %}
-", "SOSDiderot/SOSDiderot.html.twig", "/var/www/web2/SOSDiderot/app/Resources/views/SOSDiderot/SOSDiderot.html.twig");
+", "SOSDiderot/SOSDiderot.html.twig", "/var/www/web2/SosUniv/nouvelle_version/app/Resources/views/SOSDiderot/SOSDiderot.html.twig");
     }
 }
