@@ -2,15 +2,14 @@
 # https://symfony.com/doc/current/security.html
 security:
     encoders:
-        AppBundle\Entity\User:
-            algorithm: bcrypt
+        AppBundle\Entity\staff: bcrypt
 
     # https://symfony.com/doc/current/security.html#b-configuring-how-users-are-loaded
 
     providers:
         db_provider:
             entity:
-                class: AppBundle:User
+                class: AppBundle:staff
                 property: email
         
 
